@@ -5,15 +5,15 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bussiness.Abstract
+namespace Business.Abstract
 {
     public interface IPersonService
     {
         IDataResult<List<Person>> GetAll();
-        IDataResult<List<Person>> GetAllByPositionId(int id);
+        IDataResult<List<Person>> GetAllByPositionId(int positionId);
 
-        IDataResult<List<PersonDetailDto>> GetProductDetails();
-        IDataResult<Person> GetById(int productId);
+        IDataResult<List<PersonDetailDto>> GetPersonDetails();
+        IDataResult<Person> GetById(int personId);
         IResult Add(Person person);
         IResult Update(Person person);
         //IResult AddTransactionalTest(Person person);

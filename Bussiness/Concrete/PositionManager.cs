@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Business.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bussiness.Concrete
+namespace Business.Concrete
 {
     public class PositionManager
     {

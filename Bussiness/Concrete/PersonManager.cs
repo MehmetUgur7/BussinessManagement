@@ -1,18 +1,18 @@
-﻿using Bussiness.Abstract;
+﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Business;
 using Core.Utilities.Results;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bussiness.Concrete
+namespace Business.Concrete
 {
     public class PersonManager : IPersonService
     {
-        public IResult Add(Person person)
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public IDataResult<List<Person>> GetAll()
         {
@@ -25,6 +25,11 @@ namespace Bussiness.Concrete
         }
 
         public IDataResult<Person> GetById(int productId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDataResult<List<PersonDetailDto>> GetPersonDetails()
         {
             throw new NotImplementedException();
         }

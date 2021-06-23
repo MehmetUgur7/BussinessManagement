@@ -4,11 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Bussiness.Abstract
+namespace Business.Abstract
 {
     public interface IPositionService
     {
         IDataResult<List<Position>> GetAll();
-        IDataResult<Position> GetById(int categoryId);
+        IDataResult<Position> GetById(int positionId);
     }
 }
