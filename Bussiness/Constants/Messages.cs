@@ -7,14 +7,12 @@ namespace Business.Constants
 {
     public static class Messages
     {
-        public static string ProductAdded = "Ürün eklendi.";
-        public static string ProductNameInvalid = "Ürün ismi geçersiz.";
+        public static string PersonAdded = "Kişi eklendi.";
+        public static string PersonUpdated = "Kişi güncellendi.";
+        public static string PersonNameInvalid = "Kişi ismi geçersiz.";
         public static string MaintenanceTime = "Sistem bakımda";
-        public static string ProductsListed = "Ürünler Listelendi";
-        public static string UnitPriceInvalid = "Ürün fiyatı geçersiz.";
-        public static string ProductCountOfCategoryError = "Bir kategoride en fazla on ürün bulunabilir.";
-        public static string ProductNameAlreadyExists = "Aynı isimde başka bir ürün var.";
-        public static string CategoryLimitExceeded = "Kategori limiti aşıldı.";
+        public static string PersonsListed = "Kişiler Listelendi";
+        public static string PersonNameAlreadyExists = "Aynı isimde başka bir kişi var.";
         public static string AuthorizationDenied = "Yetkiniz yok.";
         public static string UserNotFound = "Kullanıcı bulunamadı";
         public static string PasswordError = "Şifre hatalı";
