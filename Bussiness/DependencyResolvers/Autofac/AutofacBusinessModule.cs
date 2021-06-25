@@ -3,8 +3,6 @@ using Autofac.Extras.DynamicProxy;
 using Business.Abstract;
 using Business.CCS;
 using Business.Concrete;
-using Business.Abstract;
-using Business.Concrete;
 using Castle.DynamicProxy;
 using Core.Utilities.Interceptors;
 using Core.Utilities.Security.JWT;
