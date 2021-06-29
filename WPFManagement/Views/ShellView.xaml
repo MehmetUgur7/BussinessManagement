@@ -16,7 +16,12 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <ItemsControl ItemsSource="{Binding People}" Grid.Row="0">
+        <StackPanel Orientation="Horizontal" Grid.Row="0">
+            <Button x:Name="AddPerson">Add New Person</Button>
+            <Button x:Name="RemovePerson">Remove Random Person</Button>
+        </StackPanel>
+
+        <ItemsControl ItemsSource="{Binding People}" Grid.Row="1">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
                     <WrapPanel/>

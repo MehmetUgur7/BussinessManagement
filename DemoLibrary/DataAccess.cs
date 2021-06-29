@@ -40,7 +40,7 @@ namespace DemoLibrary
             return output;
         }
 
-        private PersonModel GetPerson(int id)
+        public PersonModel GetPerson(int id)
         {
             PersonModel output = new PersonModel();
 
@@ -75,7 +75,7 @@ namespace DemoLibrary
             return output;
         }
 
-        private T GetRandomItem<T>(T[] data)
+        public T GetRandomItem<T>(T[] data)
         {
             return data[rnd.Next(0, data.Length)];
         }
